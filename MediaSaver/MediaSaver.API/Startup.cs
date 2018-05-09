@@ -54,6 +54,9 @@ namespace MediaSaver.API
                 app.UseDeveloperExceptionPage();
             }
 
+            // So we can use HTML, CSS and JS
+            app.UseStaticFiles();
+
             app.UseMvc();
         }
     }

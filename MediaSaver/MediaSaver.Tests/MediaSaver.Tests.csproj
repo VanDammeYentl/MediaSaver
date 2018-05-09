@@ -19,4 +19,9 @@
     <ProjectReference Include="..\MediaSaver.Services\MediaSaver.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="API\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
